@@ -6,6 +6,9 @@ const StyledLink = styled.div`
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+  background-color: #6da4aa;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
 `;
 
 export default ({ children, href }) => {
